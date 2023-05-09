@@ -1,15 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>This is an Input Field</h1>
+    <InputField type="text" placeholder="Placeholder" label="Label" />
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+
+<script setup lang="ts">
+import InputField from '../components/InputField.vue'
+
+const components = { InputField };
+</script>
