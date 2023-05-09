@@ -1,8 +1,8 @@
 <template>
-  <div class="home-page">
-    <h1>{{ title }}</h1>
+  <div class="home-page text-center py-5">
+    <h1 class="text-2x1 font-bold mb-4">{{ title }}</h1>
     <p>{{ message }}</p>
-    <button @click="changeMessage">Click me!</button>
+    <button @click="changeMessage" class="bg-green-500 hover:bg-green-600 text-white rounded px-4 py-2 mt-4 transition-colors duration-300">Click me!</button>
   </div>
 </template>
 
@@ -16,30 +16,3 @@ function changeMessage() {
   message.value = 'You have clicked the button!';
 }
 </script>
-
-<style scoped>
-.home-page {
-  text-align: center;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-button {
-  background-color: #42b983;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #2c9e6f;
-}
-</style>
