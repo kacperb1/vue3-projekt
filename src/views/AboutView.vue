@@ -1,13 +1,16 @@
 <template>
-  <div>
-    <h1>This is an Input Field</h1>
-    <InputField type="text" placeholder="Placeholder" label="Label" />
-  </div>
+  <Layout>
+    <div>
+      <InputField id="example" label="Example" placeholder="Enter text here" />
+    </div>
+  </Layout>
 </template>
 
-
 <script setup lang="ts">
+import Layout from '@/components/Layout.vue';
 import InputField from '../components/InputField.vue'
 
-const components = { InputField };
+const handleClearInput = () => {
+  console.log('Input cleared')
+}
 </script>
