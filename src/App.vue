@@ -1,29 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import PageFooter from './components/PageFooter.vue';
+import PageHeader from './components/PageHeader.vue';
 </script>
 
 <template>
-  <!-- **** Header **** -->
-  <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold text-gray-900">
-        Überschrift
-      </h1>
-      <div>
-        <nav>
-          <RouterLink to="/" class="text-header-gradient">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-
-  <!-- **** Footer **** -->
+  <PageHeader />
   <RouterView />
-
-
   <PageFooter />
 </template>
 
