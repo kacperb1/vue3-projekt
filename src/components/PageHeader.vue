@@ -7,7 +7,6 @@
               Logo
             </a>
           </div>
-          <!-- Put your menu or other elements here -->
           <div class="flex items-center">
                 <nav>
                     <RouterLink to="/" class="mx-2">Home</RouterLink>
@@ -17,7 +16,6 @@
       </div>
     </header>
     <div :style="`padding-top: ${headerHeight}px`">
-      <!-- This div is here to avoid content hiding behind the header -->
       <slot></slot>
     </div>
   </div>

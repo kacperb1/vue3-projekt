@@ -21,6 +21,7 @@
     "@vue/cli-service": "^5.0.8",
     "@vue/runtime-core": "^3.2.47",
     "@vueuse/core": "^10.1.2",
+    "axios": "^1.4.0",
     "pinia": "^2.0.35",
     "vue": "^3.2.36",
     "vue-class-component": "^8.0.0-rc.1",

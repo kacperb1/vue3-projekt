@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <div>
-      <InputField id="example" label="Example" placeholder="Enter text here" />
+      <ImageSearch />
     </div>
   </Layout>
 </template>
 
 <script setup lang="ts">
-import Layout from '@/components/Layout.vue';
-import InputField from '../components/InputField.vue'
+import Layout from '@/components/Layout.vue'
+import ImageSearch from '@/components/ImageSearch.vue'
 
 const handleClearInput = () => {
   console.log('Input cleared')
