@@ -7,6 +7,7 @@ import PageHeader from './components/PageHeader.vue';
 <template>
   <PageHeader />
   <RouterView />
+  <ScrollToTopButton />
   <PageFooter />
 </template>
 

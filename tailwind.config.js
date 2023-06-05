@@ -11,12 +11,26 @@ module.exports = {
         },
       colors: {
         'deep-purple': {
-          'accent-400': '#673ab7', // Change the color code to the desired one
-          '50': '#ede7f6', // Change the color code to the desired one
+          'accent-400': '#673ab7',
+          '50': '#ede7f6',
         },
         'teal-accent': {
-          '400': '#1de9b6', // Change the color code to the desired one
+          '400': '#1de9b6',
         },
+      },
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+      },
+      fontWeight: {
+        '100': '100',
+        '200': '200',
+        '300': '300',
+        '400': '400',
+        '500': '500',
+        '600': '600',
+        '700': '700',
+        '800': '800',
+        '900': '900',
       },
     },
   },

@@ -1,16 +1,13 @@
 <template>
   <Layout>
     <div>
-      <ImageSearch />
+      <Input label="test" />
     </div>
   </Layout>
 </template>
 
 <script setup lang="ts">
-import Layout from '@/components/Layout.vue'
-import ImageSearch from '@/components/ImageSearch.vue'
+import Layout from '@/layouts/Layout.vue'
+import Input from '@/components/BasicComponents/Input.vue'
 
-const handleClearInput = () => {
-  console.log('Input cleared')
-}
 </script>

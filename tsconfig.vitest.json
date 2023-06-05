@@ -1,9 +1,9 @@
 {
-  "extends": "./tsconfig.app.json",
-  "exclude": [],
+  "extends": "./tsconfig.json",
+  "include": ["vitest/**/*"],
   "compilerOptions": {
-    "composite": true,
-    "lib": [],
-    "types": ["node", "jsdom"]
+    "module": "es2020",
+    "target": "esnext",
+    "types": ["vite/client", "jest"]
   }
 }
