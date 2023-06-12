@@ -17,17 +17,14 @@
                             <rect x="14" y="1" width="7" height="6"></rect>
                             <rect x="14" y="11" width="7" height="12"></rect>
                         </svg>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Company</span>
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Das ist ein Beispiel-Header</span>
                     </a>
                     <div class="mt-4 lg:max-w-sm">
                         <p class="text-sm text-deep-purple-50">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam
-                            rem aperiam.
+                            Ich hab das nicht selber gemacht :D
                         </p>
                         <p class="mt-4 text-sm text-deep-purple-50">
-                            Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                            explicabo.
+                            Nur zu Demonstrationszwecken :)
                         </p>
                     </div>
                 </div>

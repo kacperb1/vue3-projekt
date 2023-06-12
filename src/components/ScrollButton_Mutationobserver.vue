@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-      <Button v-if="isVisible" class="fixed bottom-4 right-4 shadow-lg" @click="scrollToTop">
+      <Button v-if="isVisible" class="fixed bottom-4 shadow-lg" @click="scrollToTop">
         <font-awesome-icon :icon="['fas', 'arrow-up']" class="mr-2" />
         <span>Nach oben</span>
       </Button>

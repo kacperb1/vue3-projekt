@@ -6,11 +6,12 @@
           <slot></slot>
         </div>
       </div>
+      <!-- <ScrollToTop /> -->
+
     </main>
-    <ScrollToTop />
   </div>
 </template>
 
 <script setup lang="ts">
-import ScrollToTop from '@/components/ScrollToTopButton.vue' 
+// import ScrollToTop from '@/components/ScrollToTopButton.vue' 
 </script>
